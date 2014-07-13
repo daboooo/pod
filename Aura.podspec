@@ -90,8 +90,8 @@ We call ourselves a customer experience technology company. We partner with lead
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "AuraCore.h"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = 'Library/**/*.{h}'
+  # s.exclude_files = "Classes/Exclude"
   s.public_header_files = "*.h"
 
 
