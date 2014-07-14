@@ -79,7 +79,7 @@ We call ourselves a customer experience technology company. We partner with lead
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/daboooo/test.git"}
+  s.source = { :git => "https://github.com/daboooo/test.git"}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -118,7 +118,7 @@ We call ourselves a customer experience technology company. We partner with lead
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
-  # s.library   = "AuraCore"
+  # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 
 
