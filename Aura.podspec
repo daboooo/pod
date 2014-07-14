@@ -118,7 +118,7 @@ We call ourselves a customer experience technology company. We partner with lead
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
-  s.library   = "AuraCore"
+  # s.library   = "AuraCore"
   # s.libraries = "iconv", "xml2"
 
 
