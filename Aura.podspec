@@ -21,12 +21,9 @@ Pod::Spec.new do |s|
 
   s.description  = <<-DESC
                    The bar has been raised. Newer, more nimble businesses are employing the latest in technology to compete with incumbent players.
-
-We know as a large established business, it’s hard to adopt the latest and greatest. It feels risky to be the first. To be the disruption. But you have to. It’s the only way to be remarkable – to stand out.
-
-Aura enables you to do that. We employ cutting edge technology to enable you to deliver amazing customer experiences. Ones that wow and delight the customer.
-
-We call ourselves a customer experience technology company. We partner with leading industry players that believe what we believe to craft innovative customer experiences that disrupt the status quo.
+                   We know as a large established business, it’s hard to adopt the latest and greatest. It feels risky to be the first. To be the disruption. But you have to. It’s the only way to be remarkable – to stand out.
+                   Aura enables you to do that. We employ cutting edge technology to enable you to deliver amazing customer experiences. Ones that wow and delight the customer.
+                   We call ourselves a customer experience technology company. We partner with leading industry players that believe what we believe to craft innovative customer experiences that disrupt the status quo.
                    DESC
 
   s.homepage     = "http://auraeq.com"
@@ -79,7 +76,7 @@ We call ourselves a customer experience technology company. We partner with lead
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source = { :git => "https://github.com/daboooo/test.git"}
+  s.source = { :git => "https://github.com/daboooo/pod.git"}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,7 +89,7 @@ We call ourselves a customer experience technology company. We partner with lead
 
   s.source_files  = 'Library/**/*.{h,a}'
   # s.exclude_files = "Classes/Exclude"
-  s.public_header_files = "*.h"
+  s.public_header_files = "Library/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
